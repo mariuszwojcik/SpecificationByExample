@@ -49,6 +49,12 @@
     <Compile Include="ITestService.cs" />
     <Compile Include="PoorNaming\CommunicationErrorRecoveryPolicyUnitTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SpecByExample\CommunicationErrorRecoveryPolicyTests\CommunicationErrorRecoveryPolicyTestBase.cs" />
+    <Compile Include="SpecByExample\CommunicationErrorRecoveryPolicyTests\WhenConstructing.cs" />
+    <Compile Include="SpecByExample\CommunicationErrorRecoveryPolicyTests\WhenFailsWithHandledError.cs" />
+    <Compile Include="SpecByExample\CommunicationErrorRecoveryPolicyTests\WhenOperationFailsWithCommunicationException.cs" />
+    <Compile Include="SpecByExample\CommunicationErrorRecoveryPolicyTests\WhenOperationFailsWithUnsupportedException.cs" />
+    <Compile Include="SpecByExample\CommunicationErrorRecoveryPolicyTests\WhenOperationFailsWithWebException.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
