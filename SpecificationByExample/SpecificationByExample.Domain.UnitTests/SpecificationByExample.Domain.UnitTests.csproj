@@ -46,6 +46,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Dsl\CommunicationErrorRecoveryPolicyTestBase.cs" />
+    <Compile Include="Dsl\extensions\ExpectedArgumentExceptionAttribute.cs" />
+    <Compile Include="Dsl\extensions\ExpectedArgumentNullExceptionAttribute.cs" />
+    <Compile Include="Dsl\extensions\ExpectedArgumentOutOfRangeExceptionAttribute.cs" />
+    <Compile Include="Dsl\extensions\MockSetupExtensions.cs" />
+    <Compile Include="Dsl\extensions\PolicyExtensions.cs" />
+    <Compile Include="Dsl\WhenConnectingWithBingAdsAndOperationsFails.cs" />
+    <Compile Include="Dsl\WhenConnectingWithGoogleAdWordsAndOperationFails.cs" />
+    <Compile Include="Dsl\WhenConstructing.cs" />
+    <Compile Include="Dsl\WhenHandlesError.cs" />
+    <Compile Include="Dsl\WhenOperationFailsWithUnsupportedException.cs" />
     <Compile Include="ITestService.cs" />
     <Compile Include="PoorNaming\CommunicationErrorRecoveryPolicyUnitTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
